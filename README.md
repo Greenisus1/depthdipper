@@ -15,3 +15,5 @@ Regular strict UTF-8 JSON <=1 MiB, no BOM; duplicate keys/nonstandard constants 
 Linux tested; Pi/non-Linux untested.
 
 The current public-only Pi App Store cannot discover private repositories; authenticated store support is not verified.
+
+Fullscreen update: Store interactive launch uses terminal-sized board cells or wrapped full-terminal utility input/results with PgUp/PgDn scrolling. Original core rules and direct CLI commands remain unchanged. Ctrl+C cancels utility entry, result Enter returns; no new dependency downloads. Linux PTY resize/restoration checked; physical Pi untested.
